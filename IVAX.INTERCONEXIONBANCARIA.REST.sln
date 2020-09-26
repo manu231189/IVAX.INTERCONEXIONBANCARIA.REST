@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IVAX.INTERCONEXIONBANCARIA.COMPLETA", "IVAX.INTERCONEXIONBANCARIA.COMPLETA\IVAX.INTERCONEXIONBANCARIA.COMPLETA.csproj", "{658210B7-E93E-4F31-9F24-EDF67FFE2D1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{658210B7-E93E-4F31-9F24-EDF67FFE2D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658210B7-E93E-4F31-9F24-EDF67FFE2D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658210B7-E93E-4F31-9F24-EDF67FFE2D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658210B7-E93E-4F31-9F24-EDF67FFE2D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C238D1B-A3A2-483C-AA2E-B6545B610B52}
+	EndGlobalSection
+EndGlobal
