@@ -45,6 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\Facturacion\SLN_Facturacion\Decarga_Factura\bin\Release\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -156,6 +159,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Conexiones\Conexioncs.cs" />
     <Compile Include="Controllers\AnnulmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InquireController.cs" />
@@ -170,12 +174,16 @@
     <Compile Include="Models\Document.cs" />
     <Compile Include="Models\DocumentId.cs" />
     <Compile Include="Models\ErrorRequestGeneric.cs" />
+    <Compile Include="Models\ErrorResponse.cs" />
     <Compile Include="Models\RequestAnnulment.cs" />
     <Compile Include="Models\RequestInquire.cs" />
     <Compile Include="Models\RequestPayment.cs" />
     <Compile Include="Models\ResponseAnnulment.cs" />
     <Compile Include="Models\ResponseInquire.cs" />
     <Compile Include="Models\ResponsePayment.cs" />
+    <Compile Include="Persistencias\AnnulmentSQL.cs" />
+    <Compile Include="Persistencias\InquireSQL.cs" />
+    <Compile Include="Persistencias\PaymentSQL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -208,13 +216,16 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

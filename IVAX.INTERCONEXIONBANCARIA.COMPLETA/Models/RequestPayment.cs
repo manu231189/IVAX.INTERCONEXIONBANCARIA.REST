@@ -16,7 +16,7 @@ namespace IVAX.INTERCONEXIONBANCARIA.COMPLETA.Models
         public string customerId { get; set; }
         public string paymentType { get; set; }
         public string amountTotal { get; set; }
-        public List<CheckNumber> check { get; set; }
+        public CheckNumber check { get; set; }
         public List<DocumentId> documents { get; set; }
 
     }
